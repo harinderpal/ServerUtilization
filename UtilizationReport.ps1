@@ -16,7 +16,7 @@
     $server = read-host -prompt "Enter Server name:"
     Add-Type -AssemblyName System.Windows.Forms
     $Form = New-Object system.Windows.Forms.Form # form libraries
-    $Form.Text = "Sample Form" # form title
+    $Form.Text = "Server Utilization" # form title
     $Font = New-Object System.Drawing.Font("Times New Roman",18,[System.Drawing.FontStyle]::Italic) # creating fonts 
     # Font styles are: Regular, Bold, Italic, Underline, Strikeout
     $Form.Font = $Font # applying the fonts formatting to form
